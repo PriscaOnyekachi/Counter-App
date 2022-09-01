@@ -1,0 +1,56 @@
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 150, 129);
+    text-align: center;
+}
+
+.container{
+    background-image: url(./markus-spiske-XiIM2x_bqqY-unsplash.jpg);
+   
+    height: 500px;
+    width: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container > h2 {
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 50px;
+    color: brown;
+}
+
+.container > button {
+    background-color:brown;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    
+}
+
+.container > #secondBtn{
+    background-color: rgb(4, 4, 94);
+    padding: 10px 60px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.container > #previous-el {
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+}
